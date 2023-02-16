@@ -1,0 +1,45 @@
+#feedwrap {
+	width: 600px;
+	margin: 0;
+	background: #4B79F6;
+	overflow: hidden;
+	padding: 5px;
+}
+
+p {
+	font-family: "arial";
+	font-size: 12px;
+	color: #fff;
+}
+
+h2 {
+	font-family: "arial";
+	font-size: 14px;
+	color: #fff;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#photo {
+	font-size: 10px;
+	letter-spacing: 1px;
+	font-family: "arial";
+	text-align: right;
+	width: 600px;
+	opacity: 0.5;
+	line-height: 20px;	
+	
+}
+
+img {
+	height: 25px;
+	line-height: 20px;
+}
