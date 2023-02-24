@@ -5,6 +5,7 @@
 	<title>Legislation Update</title>
 	<!-- external call for style sheet/-->
 	<link rel="stylesheet" type="text/css" href="rssstyle.css?v=<?php echo time(); ?>">
+	<?php header("Access-Control-Allow-Origin: *"); ?>
 </head>
 
 <body>
