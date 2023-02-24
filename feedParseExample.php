@@ -4,55 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Legislation Update</title>
 	<!-- external call for style sheet/-->
-	
-	<style>
-	#feedwrap {
-	width: 600px;
-	margin: 0;
-	background: #4B79F6;
-	overflow: hidden;
-	padding: 5px;
-	}
-
-	p {
-	font-family: "arial";
-	font-size: 12px;
-	color: #fff;
-	}
-
-	h2 {
-	font-family: "arial";
-	font-size: 14px;
-	color: #fff;
-	}
-
-	a {
-	color: #fff;
-	text-decoration: none;
-	}
-
-	a:hover {
-	color: #fff;
-	text-decoration: none;
-	}
-
-	#photo {
-	font-size: 10px;
-	letter-spacing: 1px;
-	font-family: "arial";
-	text-align: right;
-	width: 600px;
-	opacity: 0.5;
-	line-height: 20px;	
-	
-	}
-
-	img {
-	height: 25px;
-	line-height: 20px;
-	}
-
-</style>
+	<link rel="stylesheet" type="text/css" href="rssstyle.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
@@ -87,8 +39,3 @@
 
 </footer>
 </html>
-
-
-<!-- next steps: need to host php online / maybe via a vps or thru github pages.
-Call upon php script using either jQuery or javascript 
-Output php/js in html format
